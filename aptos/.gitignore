@@ -1,0 +1,27 @@
+# Move build outputs
+build/
+*.mv
+
+# TypeScript
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Aptos
+.aptos/
+*.aptos_cache

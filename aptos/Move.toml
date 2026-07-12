@@ -1,0 +1,14 @@
+[package]
+name = "crypto_rocket"
+version = "0.1.0"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
+AptosStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/move-stdlib", rev = "main" }
+AptosTokenObjects = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token-objects", rev = "main" }
+
+[addresses]
+aptos_framework = "0x1"
+aptos_std = "0x1"
+aptos_token_objects = "0x4"
+crypto_rocket = "_"
